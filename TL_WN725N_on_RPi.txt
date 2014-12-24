@@ -4,7 +4,7 @@ http://direct.raspberrypi.org/forums/viewtopic.php?f=28&t=62371&start=325
 =============================================================================================================
 DOWNLOAD THE DRIVER : http://gordon.d4rc.net/8188eu_3.12.28.zip
 =============================================================================================================
-INSTALLATION
+INSTALLATION : Unzip the files from 8188eu_3.12.28.zip on your Home directory
 =============================================================================================================
 sudo rm /lib/modules/3.12.28+/kernel/drivers/net/wireless/8188eu.ko /lib/firmware/rtlwifi/rtl8188eufw.bin
 unzip 8188eu_3.12.28.zip
@@ -29,4 +29,6 @@ iface wlan0 inet dhcp
         wpa-psk "your-password"
 #wpa-roam /etc/wpa_supplicant/wpa_supplicant.conf
 iface default inet dhcp
+=============================================================================================================
+RESTART YOUR RASPBERRY PI : sudo reboot
 =============================================================================================================
