@@ -1,11 +1,8 @@
-TP-LINK TL-WN725N 150MBPS WIRELESS N NANO USB ADAPTER
-http://www.e-shop.gr/tp-link-tl-wn725n-150mbps-wireless-n-nano-usb-adapter-p-PER.612497
-6.40 €
-
 INFO
-=============================================================================================================
-gordon.d4rc.net/8188eu_3.12.28.zip
+The instructions below are from the website:
 http://direct.raspberrypi.org/forums/viewtopic.php?f=28&t=62371&start=325
+=============================================================================================================
+DOWNLOAD THE DRIVER : http://gordon.d4rc.net/8188eu_3.12.28.zip
 =============================================================================================================
 INSTALLATION
 =============================================================================================================
@@ -23,7 +20,7 @@ EDIT INTERFACES: sudo nano /etc/network/interfaces
 auto lo
 
 iface lo inet loopback
-#iface eth0 inet dhcp
+iface eth0 inet dhcp
 
 allow-hotplug wlan0
 auto wlan0
