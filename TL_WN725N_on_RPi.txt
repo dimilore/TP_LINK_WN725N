@@ -1,6 +1,3 @@
-INFO
-The instructions below are from the website:
-http://direct.raspberrypi.org/forums/viewtopic.php?f=28&t=62371&start=325
 =============================================================================================================
 DOWNLOAD THE DRIVER : http://gordon.d4rc.net/8188eu_3.12.28.zip
 =============================================================================================================
@@ -32,3 +29,4 @@ iface default inet dhcp
 =============================================================================================================
 RESTART YOUR RASPBERRY PI : sudo reboot
 =============================================================================================================
+via:http://direct.raspberrypi.org/forums/viewtopic.php?f=28&t=62371&start=325
